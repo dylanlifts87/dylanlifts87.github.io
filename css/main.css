@@ -1,3 +1,8 @@
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Special Elite', cursive;*/
+
 * { padding: 0; margin: 0; }
 
 body > * {
@@ -16,9 +21,7 @@ body {
 }
 
 header {
-  /*font-family: 'Maven Pro', sans-serif;
-  font-family: 'Cinzel', serif;
-  font-family: 'Advent Pro', sans-serif;*/
+  background-image: url("../img/header-steel.jpg");
   font-family: 'Special Elite', cursive;
   width: 100%;
   background-color: black;
@@ -28,6 +31,24 @@ header {
   top: 0;
 }
 
+a {
+  padding: 5px;
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+
+
+.main-body {
+  text-align: center;
+
+  padding-top: 185px;
+  padding-bottom: 35px;
+}
+
+.main-text {
+  text-align: center;
+  width: 300px;
+}
 .images {
   text-align: center;
 }
